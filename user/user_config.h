@@ -6,11 +6,11 @@
 #define		LOCAL_ACCESS 0x01
 #define		REMOTE_ACCESS 0x02
 
-#define		WIFI_SSID "ssid"
-#define		WIFI_PASSWORD "password"
+define		WIFI_SSID "Nome da rede Wi-Fi"
+define		WIFI_PASSWORD "Password da rede Wi-Fi"
 
-#define		WIFI_AP_SSID "MyAP"
-#define		WIFI_AP_PASSWORD "none"
+define		WIFI_AP_SSID "www.TECstoreOAZ.pt"
+define		WIFI_AP_PASSWORD "p@ssw0rd"
 
 #define		MAX_CLIENTS 8
 #define		MAX_DHCP 8

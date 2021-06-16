@@ -3,13 +3,13 @@
 <head></head>\
 <meta name='viewport' content='width=device-width, initial-scale=1'>\
 <body>\
-<h1>ESP WiFi NAT Router Config</h1>\
+<h1>TEC Store - Project: Touch Montra V3</h1>\
 <div id='config'>\
 <script>\
 if (window.location.search.substr(1) != '')\
 {\
 document.getElementById('config').display = 'none';\
-document.body.innerHTML ='<h1>ESP WiFi NAT Router Config</h1>The new settings have been sent to the device...';\
+document.body.innerHTML ='<h1>TEC Store - Project: Touch Montra V3</h1>The new settings have been sent to the device...';\
 setTimeout(\"location.href = '/'\",10000);\
 }\
 </script>\
@@ -24,62 +24,12 @@ setTimeout(\"location.href = '/'\",10000);\
 <td>Password:</td>\
 <td><input type='password' name='password' value='%s'/></td>\
 </tr>\
-<td>Automesh:</td>\
-<td><input type='checkbox' name='am' value='mesh' %s></td>\
 </tr>\
 <tr>\
 <td></td>\
-<td><input type='submit' value='Connect'/></td>\
+<td><input type='submit' value='Ligar'/></td>\
 </tr>\
 \
-</table>\
-</form>\
-\
-<h2>AP Settings</h2>\
-<form action='' method='GET'>\
-<table>\
-<tr>\
-<td>SSID:</td>\
-<td><input type='text' name='ap_ssid' value='%s'/></td>\
-</tr>\
-<tr>\
-<td>Password:</td>\
-<td><input type='text' name='ap_password' value='%s'/></td>\
-</tr>\
-<tr>\
-<td>Security:</td>\
-<td>\
- <select name='ap_open'>\
- <option value='open'%s>Open</option>\
- <option value='wpa2'%s>WPA2</option>\
-</select>\
-</td>\
-</tr>\
-<tr>\
-<td>Subnet:</td>\
-<td><input type='text' name='network' value='%d.%d.%d.%d'/></td>\
-</tr>\
-<tr>\
-<td></td>\
-<td><input type='submit' value='Set' /></td>\
-</tr>\
-</table>\
-<small>\
-<i>Password: </i>min. 8 chars<br />\
-</small>\
-</form>\
-\
-<h2>Lock Config</h2>\
-<form action='' method='GET'>\
-<table>\
-<tr>\
-<td>Lock Device:</td>\
-<td><input type='checkbox' name='lock' value='l'></td>\
-</tr>\
-<tr>\
-<td></td>\
-<td><input type='submit' name='dolock' value='Lock'/></td>\
-</tr>\
 </table>\
 </form>\
 \
@@ -88,7 +38,7 @@ setTimeout(\"location.href = '/'\",10000);\
 <table>\
 <tr>\
 <td>Reset Device:</td>\
-<td><input type='submit' name='reset' value='Restart'/></td>\
+<td><input type='submit' name='reset' value='Reniciar dispositivo'/></td>\
 </tr>\
 </table>\
 </form>\
